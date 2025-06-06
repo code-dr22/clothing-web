@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    margin: 0;
+}
+.header{ 
+    display: flex;
+    align-items: center;
+}
+.brand-name-container{
+    margin-right: 450px;
+}
+.brand-name{
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.search-store{
+    border: 0.5px solid rgb(233, 233, 233);
+    padding-left: 15px;
+    height: 33px;
+    width: 250px;
+}
+.search-icon{
+    height: 30px;
+    width: 30px;
+}
+.button-icon{
+    background-color: white;
+    margin-left: -6px;
+    border: 0.5px solid rgb(233, 233, 233);
+}
+.header-left{
+    display: flex;
+    align-items: center;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+}
+.profile-image{
+    height: 30px;
+    width:30px ; 
+}
+.head{
+        display: flex;
+        padding-top: 10px;
+        justify-content: center;
+        margin-bottom: 10px;
+        border-top: 1px solid rgb(233, 233, 233);
+    }
+    .header-tittle{
+        margin-right: 35px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+.head-content{
+    display: flex;
+}
+.person-img{
+    width: 820px;
+    height: 653px;
+    object-fit: cover;
+}
+.div-content{
+    display: flex;
+    flex-direction: column;
+}
+.sub-div-content{
+    display: flex;
+    margin-top: 10px;
+}
+.sneaker-image{
+    height: 320px;
+    width: 510px;
+    margin-left: 10px;    
+}
+
+.hoodie-img{
+    height: 320px;
+    width: 250px;
+    margin-left: 10px;
+    object-fit: cover;
+}
+.content-page{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.content-tittle{    
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.content-info{
+    font-size: 12px;
+    color: rgb(154, 140, 121);
+}
+.shop-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.shop-image{
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
+}
+.footer-img{
+    height: 200px;
+    width: 1400px;
+    object-fit: cover;
+}
+.person-img-container{
+    position: relative;
+}
+.absolute-text{
+    position: absolute;
+    top: 170px;
+    left: 170px;
+}
+.arrival-text{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+}
+.hoodie{
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.lorem{
+    margin-top: 30px;
+    width: 450px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.discover{
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.sneaker-image-container{
+    position: relative;
+}
+.absolute-text-2{
+    position: absolute;
+    top: 25px;
+    left: 40px;
+}
+.sales-tittle{
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.sales-info, .sales-info-diff{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px; 
+    margin-top: 15px;
+}
+.sales-info-diff{
+    margin-top: 45px;
+}
+.shop-cart{
+    position: relative;
+}
+.new-tag{
+    position: absolute;
+    background-color: rgb(7, 69, 51);
+    left: 10px;
+    top: 10px;
+    color: white;
+    padding: 5px;
+    width: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+}
+.sales-off-tag{
+    position: absolute;
+    background-color: rgb(234, 120, 27);
+    left: 10px;
+    top: 38px;
+    color: white;
+    padding: 5px;
+    width: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+}
